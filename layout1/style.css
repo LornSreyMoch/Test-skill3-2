@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 700px;
+    margin: auto;
+}
+.box{
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxA{
+    border: 1px solid black;
+    flex: 1;
+    padding: 80px;
+    
+}
+.boxB{
+    border: 1px solid black;
+    flex: 1;
+    padding: 80px;
+}
+.boxC{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+}
+.box1{
+    flex-direction: row;
+    display: flex;
+    gap: 7px;
+    text-align: center;
+    padding: 10px;
+}
+.boxD{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+}
+.boxE{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+}
+.boxF{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+}
+.boxG{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+    max-width: 700px;
+}
+.boxH{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+}
+.boxI{
+    border: 1px solid black;
+    padding: 80px;
+    flex: 1;
+}

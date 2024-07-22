@@ -1,0 +1,64 @@
+.container{
+    padding: 0;
+    margin: 0;
+    max-width: 1400px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxA{
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    gap: 5PX;
+}
+.boxB{
+    flex: 2;
+    border: 1px solid black;
+    padding: 100px;
+}
+.boxC{
+    flex: 1;
+    border: 1px solid black;
+    padding: 100px;
+}
+.box2{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5PX;
+    margin: auto;
+}
+.boxD{
+    flex: 1;
+    border: 1px solid black;
+    padding: 70px;
+    height: 100px;
+}
+.boxE{
+    flex: 1;
+    border: 1px solid black;
+    padding: 70px;
+}
+.boxF{
+    flex: 1;
+    border: 1px solid black;
+    padding: 70px;
+}
+.boxG{
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+

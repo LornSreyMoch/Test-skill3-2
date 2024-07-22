@@ -1,0 +1,62 @@
+.container{
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxA{
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7px;
+
+}
+.boxB{
+    flex: 1;
+    border: 1px solid black;
+    padding: 250px;
+}
+.boxC{
+    flex: 2;
+    border: 1px solid black;
+    padding: 250px;
+}
+.boxD{
+    flex: 1;
+    border: 1px solid black;
+    padding: 250px;
+}
+.boxE{
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 700px){
+    .boxA{
+        flex: 1;
+        padding: 20px;
+    }
+    .box3{
+       flex-direction: column;
+    }
+    .boxC{
+        padding: 100px;
+    }
+    .boxB{
+        display: none;
+    }
+}
